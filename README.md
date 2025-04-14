@@ -49,6 +49,10 @@ to measure distances to control the motors to stop and avoid.
   ![road](pics/csv.jpg)
   Collecting images of simulated roads and motor speed values. When the Data Collection Main.py code is run, it will connect to other modules. It will use a joystick to control the speed and movement of the car. It will save 240 x 120 images and data as .csv and use it to train the MobileNetV2 model. It will receive images from the camera, process them and predict the motor speed values ​​to make the car move automatically and convert the model to .tflite format to make the model smaller, work faster, reduce latency but may reduce accuracy.
 
-  ### 
+  ### OpenCV Installation on Raspberry Pi 5
+  ```bash
+  sudo apt-get update && sudo apt-get upgrade && sudo rpi-update
+  ```
+    
 
 
