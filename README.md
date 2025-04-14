@@ -45,10 +45,9 @@ The main programming language of the project is Python, used on Raspberry Pi 5. 
 to measure distances to control the motors to stop and avoid.
 
   ### Collecting datasets for training and building models
-
-  Collecting images of simulated roads and motor speed values. When running the [Data Collection Main.py](DataCollection/Data_Collection_Main.py) code, it will connect to other modules. It will use a joystick to control the speed and direction of the motor. 
-  It will save images and data as .csv.
-
+  ![road](pics/road.jpg)
+  ![road](pics/csv.jpg)
+  Collecting images of simulated roads and motor speed values. When the Data Collection Main.py code is run, it will connect to other modules. It will use a joystick to control the speed and movement of the car. It will save images and data as .csv and use it to train a model to make the car move automatically.
   
 
 
