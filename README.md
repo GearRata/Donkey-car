@@ -44,10 +44,11 @@ In addition, the system can also estimate the distance from the ultrasonic senso
 The main programming language of the project is Python, used on Raspberry Pi 5. For capturing and processing images, as well as computer vision algorithms, the OpenCV library is used, and ultrasonic sensors are used 
 to measure distances to control the motors to stop and avoid.
 
-  ### Collecting datasets for training and building models
+  ### Dataset collection for training and modeling of autonomous vehicles
   ![road](pics/road.jpg)
   ![road](pics/csv.jpg)
-  Collecting images of simulated roads and motor speed values. When the Data Collection Main.py code is run, it will connect to other modules. It will use a joystick to control the speed and movement of the car. It will save 240 x 120 images and data as .csv and use it to train the model to make the car move automatically.
+  Collecting images of simulated roads and motor speed values. When the Data Collection Main.py code is run, it will connect to other modules. It will use a joystick to control the speed and movement of the car. It will save 240 x 120 images and data as .csv and use it to train the MobileNetV2 model. It will receive images from the camera, process them and predict the motor speed values ​​to make the car move automatically and convert the model to .tflite format to make the model smaller, work faster, reduce latency but may reduce accuracy.
 
+  ### 
 
 
