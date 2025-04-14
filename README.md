@@ -118,8 +118,14 @@ to measure distances to control the motors to stop and avoid.
      python basic_pipelines/detection.py --input /dev/video<X>
       ```
      Example:
-     python basic_pipelines/detection.py --input /dev/video<X>
+     ```bash
+     python basic_pipelines/Autonomous.py --input /dev/video1
+     ```
 
+     ```bash
+     python basic_pipelines/Detection.py --input /dev/video2
+     ```
+     
      ![Detect Example](pics/ex.jpg)
 
      
