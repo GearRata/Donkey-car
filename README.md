@@ -46,7 +46,7 @@ to measure distances to control the motors to stop and avoid.
 
   ### Collecting datasets for training and building models
 
-  Collecting images of simulated roads and motor speed values. When running the [Data Collection Main.py](DataCollection/Data Collection Main.py). code, it will connect to other modules. It will use a joystick to control the speed and direction of the motor. 
+  Collecting images of simulated roads and motor speed values. When running the [Data Collection Main.py](DataCollection/DataC.py) code, it will connect to other modules. It will use a joystick to control the speed and direction of the motor. 
   It will save images and data as .csv.
 
   
