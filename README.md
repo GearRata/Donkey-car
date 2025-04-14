@@ -76,6 +76,50 @@ to measure distances to control the motors to stop and avoid.
   18. make -j4
   19. sudo make install && sudo ld
   ```
-    
 
+  ### Install Hailo Hardware and Software Setup on Raspberry Pi
 
+  This project uses yolov8n model to detect the capabilities of the Hailo AI processor on the Raspberry Pi 5, allowing you to run AI on embedded devices, and is designed to work with the Raspberry Pi AI Kit and AI HAT, which support both the Hailo8 (26 TOPS) and Hailo8L (13 TOPS) AI processors.
+  
+  The AI ​​HAT+ comes with a ribbon cable, GPIO stack header and mounting hardware. Then connect it to your Raspberry Pi 5 and follow these steps:
+  1. First, ensure that your Raspberry Pi  5 runs the latest software. Run the following command to update:
+     ```bash
+     sudo apt update && sudo apt full-upgrade
+      ```
+  2. Install the drivers and software required to run AI HAT+.
+      ```bash
+     sudo apt install hailo-all
+      ```
+  3. Install Hailo RPi5 Basic Pipelines
+     #### Clone the Repository
+     ```bash
+     git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
+      ```
+     Navigate to the repository directory:
+     ```bash
+     cd hailo-rpi5-examples
+      ```
+     #### Installation
+     Run the following script to automate the installation process:
+     ```bash
+     ./install.sh
+      ```
+     #### Running The Code with USB camera input (webcam):
+     When opening a new terminal session, ensure you have sourced the environment setup script:
+     ```bash
+     source setup_env.sh
+      ```
+     Detect the available camera using this script:
+     ```bash
+     get-usb-camera
+      ```
+     Run example using USB camera input - Use the device found by the previous script:
+     ```bash
+     python basic_pipelines/detection.py --input /dev/video<X>
+      ```
+     Example:
+     python basic_pipelines/detection.py --input /dev/video<X>
+
+     ![Detect Example](pics/ex.jpg)
+
+     
