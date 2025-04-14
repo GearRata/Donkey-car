@@ -52,6 +52,8 @@ to measure distances to control the motors to stop and avoid.
   ### OpenCV Installation on Raspberry Pi 5
   ```bash
   sudo apt-get update && sudo apt-get upgrade && sudo rpi-update
+  sudo nano /etc/dphys-swapfile
+    CONF_SWAPSIZE=2048
   ```
     
 
