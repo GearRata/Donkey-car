@@ -12,7 +12,32 @@ In addition, the system can also estimate the distance from the ultrasonic senso
 
 ## Hardware
 
-  ![Car Parts](pics/hardware.webp)
+  ![Hardware](pics/hardware.jpg)
+
+  * 1 x Raspberry Pi 5 Mainboard
+  * 1 x Raspberry Pi AI HAT+ 13 TOPS
+  * 1 x 32GB MakerDisk microSD card preloaded with Raspbot OS
+  * 1 x Car Expansion Board
+  * 1 x Camera Platform PCB
+  * 1 x PTZ Component
+  * 4 x Tire
+  * 4 x Motor Fixing Frame
+  * 1 x Four-channel Tracking Module with 6-pin Cable
+  * 4 x Motor
+  * 1 x Battery and Velcro
+  * 1 x 40-pin Cable
+  * 1 x Camera with Cable
+  * 1 x Ultrasonic Sensor
+  * 1 x Remote Control
+  * 1 x Screwdriver
+  * 1 x 12.6V Charger 
+  * 1 x UK Plug Universal Adapter 
+  * 7 x Screw Pack
+  * 1 x Manual
+  * 2 x Webcam
+  
+
+  You can view the parts on this website [Click here](https://example.com)
 
 
 
